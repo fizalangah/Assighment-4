@@ -1,3 +1,8 @@
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 def make_sentence(word, part_of_speech):
     if part_of_speech == 0:
         # noun
